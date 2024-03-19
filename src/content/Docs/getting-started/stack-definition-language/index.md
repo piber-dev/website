@@ -19,6 +19,7 @@ A complete deployment has the following sections:
 - [persistent storage](/docs/network-features/persistent-storage/)
 - [gpu support](#gpu-support)
 - [stable payment](#stable-payment)
+- [shared memory (shm)](#shared-memory-shm)
 
 An example deployment configuration can be found [here](https://github.com/akash-network/docs/tree/62714bb13cfde51ce6210dba626d7248847ba8c1/sdl/deployment.yaml).
 
@@ -283,3 +284,35 @@ Use of Stable Payments is supported in the Akash SDL and is declared in the plac
 #### Full GPU SDL Example&#x20;
 
 To view an example Stable Payment enabled SDL in full for greater context, review this [example](https://gist.github.com/chainzero/040d19bdb20d632009b8ae206fb548f5).
+
+# Shared Memory (SHM)
+
+A new storage class named `ram`  may be added to the SDL to enable shared memory access for multiple services running in the same container.&#x20;
+
+> _**NOTE**_ - SHM must not be persistent. The SDL validations  will error if SHM is defined as persistent.&#x20;
+
+```
+profiles:
+  compute:
+    grafana:
+      resources:
+        cpu:
+          units: 1
+        memory:
+          size: 1Gi
+        storage:
+          - size: 512Mi
+          - name: data
+            size: 1Gi
+            attributes:
+              persistent: true
+              class: beta2
+          - name: shm
+            size: 1Gi
+            attributes:
+              class: ram
+```
+
+#### Full SHM SDL Example
+
+To view an example SHM enabled SDL in full for greater context, review this[ example](https://gist.github.com/chainzero/0dea9f2e1c4241d2e4d490b37153ec86)
