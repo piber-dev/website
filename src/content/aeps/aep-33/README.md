@@ -8,7 +8,11 @@ type: Standard
 category: Interface
 created: 2024-12-01
 updated: 2025-03-12
+<<<<<<< Updated upstream
 estimated-completion: 2025-04-30
+=======
+estimated-completion: 2025-05-23
+>>>>>>> Stashed changes
 roadmap: major
 ---
 
