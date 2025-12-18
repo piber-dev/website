@@ -2,6 +2,7 @@
 aep: 56
 title: "Chain SDK"
 author: Anil Murty (@anilmurty) Artur Troian (@troian) Serhii Stotsky (@baktun14) Maxime Beauchamp (@baktun14)
+<<<<<<< Updated upstream
 status: Draft
 type: Standard
 category: Interface
@@ -4303,6 +4304,14 @@ estimated-completion: 2025-09-15
 updated: 2025-07-30
 estimated-completion: 2025-09-15
 >>>>>>> Stashed changes
+=======
+status: Final
+type: Standard
+category: Interface
+created: 2025-01-10
+updated: 2025-07-30
+estimated-completion: 2025-09-15
+>>>>>>> Stashed changes
 roadmap: major
 ---
 
@@ -4381,4 +4390,8 @@ import { SDL, v2Sdl, NetworkId } from "@akashnetwork/chain-sdk/sdl";
 export function getSdl(yamlJson: string | v2Sdl, networkType: NetworkType, networkId: NetworkId) {
   return isValidString(yamlJson) ? SDL.fromString(yamlJson, networkType, networkId) : new SDL(yamlJson, networkType, networkId);
 }
+<<<<<<< Updated upstream
 ```
+=======
+```
+>>>>>>> Stashed changes
