@@ -62,6 +62,7 @@ author: Anil Murty (@anilmurty) Artur Troian (@troian) Serhii Stotsky (@baktun14
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 status: Draft
 type: Standard
 category: Interface
@@ -4843,6 +4844,14 @@ created: 2025-01-10
 updated: 2025-07-30
 estimated-completion: 2025-09-15
 >>>>>>> Stashed changes
+=======
+status: Final
+type: Standard
+category: Interface
+created: 2025-01-10
+updated: 2025-07-30
+estimated-completion: 2025-09-15
+>>>>>>> Stashed changes
 roadmap: major
 ---
 
@@ -4981,7 +4990,11 @@ export function getSdl(yamlJson: string | v2Sdl, networkType: NetworkType, netwo
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ```
+=======
+```
+>>>>>>> Stashed changes
 =======
 ```
 >>>>>>> Stashed changes
