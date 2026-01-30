@@ -176,6 +176,7 @@ author: Anil Murty (@anilmurty) Artur Troian (@troian) Serhii Stotsky (@baktun14
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 status: Draft
 type: Standard
 category: Interface
@@ -5869,6 +5870,14 @@ created: 2025-01-10
 updated: 2025-07-30
 completed: 2025-10-30
 >>>>>>> Stashed changes
+=======
+status: Final
+type: Standard
+category: Interface
+created: 2025-01-10
+updated: 2025-07-30
+completed: 2025-10-30
+>>>>>>> Stashed changes
 roadmap: major
 ---
 
@@ -5881,7 +5890,11 @@ Integrations are a key part of Akash's ecosystem growth strategy. In order for i
 Right now interacting with the blockchain and the provider is arduous for someone who is not deeply involved with the core team. The reasons for this are primarily because there are a mix of different implementations for various things as noted here:
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Blockchain nodes are built using CosmosSDK. 
+=======
+- Blockchain nodes are built using CosmosSDK.
+>>>>>>> Stashed changes
 =======
 - Blockchain nodes are built using CosmosSDK.
 >>>>>>> Stashed changes
@@ -5892,7 +5905,11 @@ Right now interacting with the blockchain and the provider is arduous for someon
 ## Scope of Work
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Investigate and implement chain SDK which supports: 
+=======
+Investigate and implement chain SDK which supports:
+>>>>>>> Stashed changes
 =======
 Investigate and implement chain SDK which supports:
 >>>>>>> Stashed changes
@@ -5904,7 +5921,11 @@ Additionally, this SDK should have:
 * certificates manager and corresponding utils (https://github.com/akash-network/akashjs/blob/main/src/certificates/certificate-manager/CertificateManager.ts)
 * certificate validation logic for provider nodes https://github.com/akash-network/console/blob/main/apps/provider-proxy/src/services/CertificateValidator.ts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 * SDL related logic 
+=======
+* SDL related logic
+>>>>>>> Stashed changes
 =======
 * SDL related logic
 >>>>>>> Stashed changes
@@ -6133,7 +6154,11 @@ export function getSdl(yamlJson: string | v2Sdl, networkType: NetworkType, netwo
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ```
+=======
+```
+>>>>>>> Stashed changes
 =======
 ```
 >>>>>>> Stashed changes
