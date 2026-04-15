@@ -475,6 +475,7 @@ author: Anil Murty (@anilmurty) Artur Troian (@troian) Serhii Stotsky (@baktun14
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 status: Draft
 type: Standard
 category: Interface
@@ -8560,6 +8561,14 @@ created: 2025-01-10
 updated: 2025-07-30
 completed: 2025-10-30
 >>>>>>> Stashed changes
+=======
+status: Final
+type: Standard
+category: Interface
+created: 2025-01-10
+updated: 2025-07-30
+completed: 2025-10-30
+>>>>>>> Stashed changes
 roadmap: major
 ---
 
@@ -8871,7 +8880,11 @@ Right now interacting with the blockchain and the provider is arduous for someon
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Blockchain nodes are built using CosmosSDK. 
+=======
+- Blockchain nodes are built using CosmosSDK.
+>>>>>>> Stashed changes
 =======
 - Blockchain nodes are built using CosmosSDK.
 >>>>>>> Stashed changes
@@ -10078,7 +10091,11 @@ Right now interacting with the blockchain and the provider is arduous for someon
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Investigate and implement chain SDK which supports: 
+=======
+Investigate and implement chain SDK which supports:
+>>>>>>> Stashed changes
 =======
 Investigate and implement chain SDK which supports:
 >>>>>>> Stashed changes
@@ -11286,7 +11303,11 @@ Additionally, this SDK should have:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 * SDL related logic 
+=======
+* SDL related logic
+>>>>>>> Stashed changes
 =======
 * SDL related logic
 >>>>>>> Stashed changes
@@ -12711,7 +12732,11 @@ export function getSdl(yamlJson: string | v2Sdl, networkType: NetworkType, netwo
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ```
+=======
+```
+>>>>>>> Stashed changes
 =======
 ```
 >>>>>>> Stashed changes
