@@ -340,7 +340,11 @@ aep: 60
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 title: "Akash at Home - MVP"
+=======
+title: "Akash HomeNode - MVP"
+>>>>>>> Stashed changes
 =======
 title: "Akash HomeNode - MVP"
 >>>>>>> Stashed changes
@@ -1706,7 +1710,11 @@ updated: 2025-07-24
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 estimated-completion: 2025-12-31
+=======
+estimated-completion: 2026-03-31
+>>>>>>> Stashed changes
 =======
 estimated-completion: 2026-03-31
 >>>>>>> Stashed changes
