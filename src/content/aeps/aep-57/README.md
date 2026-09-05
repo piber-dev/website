@@ -5,7 +5,11 @@ author: Iaroslav Gryshaiev (@ygrishajev) Maxime Beauchamp (@baktun14) Anil Murty
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 status: Draft
+=======
+status: Final
+>>>>>>> Stashed changes
 =======
 status: Final
 >>>>>>> Stashed changes
