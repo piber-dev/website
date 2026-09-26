@@ -1,13 +1,13 @@
 ---
 aep: 30
-title: "Cosmos SDK v0.47 Migration"
+title: "Cosmos SDK v0.53 Migration"
 author: Cheng Wang (@lechenghiskhan) Artur Troian (@atroian) Scott Carrutthers (@chainzero)
 status: Final
 type: Standard
 category: Core
 created: 2024-08-29
-updated: 2024-02-18
-estimated-completion: 2025-03-15
+updated: 2024-04-22
+completed: 2025-10-28
 roadmap: major
 requires: 61
 discussions-to: https://github.com/orgs/akash-network/discussions/673
